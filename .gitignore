@@ -1,0 +1,20 @@
+# Archivos de sistema y temporales
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.temp
+
+# Dependencias y archivos generados
+node_modules/
+
+# Estado local de Obsidian (no es contenido de la bóveda)
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/cache/
+**/.obsidian/graph.json
+**/.obsidian/.trash/
+
+# La raíz es la bóveda canónica; esta configuración pertenece a una bóveda
+# antigua que quedó anidada dentro del contenido.
+CockForces/.obsidian/
